@@ -141,6 +141,10 @@ interface SwiperProps extends StandardProps {
    * @supported swan
    */
   disableTouchmove?: string
+  /** swiper11 相关的动效参数，具体见文档 https://swiperjs.com/swiper-api#parameters
+   * @supported h5
+   */
+  effectsProps?: Record<string, any>
   /** 改变 current 时使用动画过渡
    * @supported weapp
    * @default true
